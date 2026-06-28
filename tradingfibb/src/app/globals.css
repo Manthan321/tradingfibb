@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #F7F4EF;
+  --cream2: #EDE9E1;
+  --cream3: #DDD7CD;
+  --navy: #0E1B2E;
+  --navy2: #162338;
+  --navy3: #1D2E47;
+  --gold: #9C7B3A;
+  --gold2: #B8914A;
+  --gold-light: #D4AA6A;
+  --text: #1A1A1A;
+  --text2: #3D3D3A;
+  --text3: #6B6860;
+  --border: #D5CFC5;
+  --green: #1A6B3C;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; background: var(--cream); color: var(--text); -webkit-font-smoothing: antialiased; }
+.font-serif { font-family: 'Playfair Display', serif; }
+
+.prose-tradingfibb h2 { font-family: 'Playfair Display', serif; font-size: 1.6rem; font-weight: 600; color: var(--navy); margin: 2rem 0 0.75rem; line-height: 1.2; }
+.prose-tradingfibb h3 { font-family: 'Playfair Display', serif; font-size: 1.2rem; font-weight: 600; color: var(--navy); margin: 1.5rem 0 0.5rem; }
+.prose-tradingfibb p { color: var(--text2); line-height: 1.8; margin-bottom: 1.2rem; font-size: 1rem; font-weight: 300; }
+.prose-tradingfibb ul, .prose-tradingfibb ol { padding-left: 1.5rem; margin-bottom: 1.2rem; color: var(--text2); font-weight: 300; line-height: 1.8; }
+.prose-tradingfibb li { margin-bottom: 0.4rem; }
+.prose-tradingfibb strong { color: var(--navy); font-weight: 600; }
+.prose-tradingfibb blockquote { border-left: 3px solid var(--gold2); padding-left: 1.25rem; margin: 1.5rem 0; font-style: italic; color: var(--text3); }
+.prose-tradingfibb img { width: 100%; border-radius: 8px; margin: 1.5rem 0; border: 1px solid var(--border); }
